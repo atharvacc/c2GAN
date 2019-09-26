@@ -1,6 +1,6 @@
 ## Position available
 
-![liver_whole_slide](images/logo.jpg)
+![liver_whole_slide](images/logo.png)
 
 CycleGAN, as one of the most enlightening and startling strategy for neural network training, promises to perform a significant function in data-driven computational microscopy, including virtual staining, isotropic restoration, denosing, segmentation etc. We hope that this method will help the utilizer of microscope. For more information please follow [this link][media.au.tsinghua.edu.cn].
 

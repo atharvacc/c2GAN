@@ -6,7 +6,7 @@ Constrained CycleGAN for nonlinear pixel-wise regression in microscopy
 
 CycleGAN, as one of the most enlightening and startling strategy for neural network training, promises to perform a significant function in data-driven computational microscopy, including virtual staining, isotropic restoration, denosing, segmentation etc. We hope that this method will help the utilizer of microscope. For more information please follow [this link][media.au.tsinghua.edu.cn].
 
-## CCGAN
+## CCGAN model
 
 A python code for CCGAN (constrainted cycleGAN) aims at addressing problems during the imaging procedure of microscopy.
 

@@ -1,14 +1,16 @@
 # CCGAN
 Constrained CycleGAN for nonlinear pixel-wise regression in microscopy
 ## Position available
-CycleGAN, as one of the most enlightening and startling strategy for neural network training, promises to perform a significant function in data-driven computational microscopy, including virtual staining etc. We hope that this method will offer potential for enlightening the utilizer of microscope. For more information please follow **this link**.
 
-## CCGAN model
+![liver_whole_slide](images/logo.png)
 
-A python code for constraint cycleGAN aims at addressing problems during the imaging
-procedure of microscopy.
+CycleGAN, as one of the most enlightening and startling strategy for neural network training, promises to perform a significant function in data-driven computational microscopy, including virtual staining, isotropic restoration, denosing, segmentation etc. We hope that this method will help the utilizer of microscope. For more information please follow [this link][media.au.tsinghua.edu.cn].
 
-You can find the cycleGAN paper **here**.  Next we will mentor you step by step how to implement our computational model.
+## CCGAN
+
+A python code for CCGAN (constrainted cycleGAN) aims at addressing problems during the imaging procedure of microscopy.
+
+You can find the cycleGAN paper [here][https://arxiv.org/abs/1703.10593].  Next we will mentor you step by step how to implement our computational model.
 
 ## Directory structure
 
@@ -22,7 +24,7 @@ cycleGAN
 |---|---|---index
 |---|---|---ckpt
 |---data
-|---|---isotrpic  #project_name#
+|---|---1_Isotropic_Liver  #project_name#
 |---|---|---trainA
 |---|---|---trainB
 |---|---|---testA
@@ -95,13 +97,7 @@ $ pip install numpy=1.16.2
 
 ## Data processing
 
-* You can download some data for demo code from **our web**. You can also download these raw data from **the table**.
-
-| Project | Link |
-| :-----: | :--: |
-|         |      |
-|         |      |
-|         |      |
+* You can download some data for demo code from [Baidu Cloud][https://pan.baidu.com/s/1zUU5-Ktu4jOJPgrh5JJcyQ]. 
 
 * Transform your pictures from '.tif' to '.png' and divide the dataset into training data and test data. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the testing data. The put training A dataset at the 'trainA' folder, training B dataset at the 'trainB' folder, testing A dataset at the 'testA' folder and testing B dataset at the 'testB' folder.
 
@@ -179,33 +175,72 @@ Interpretation of the above parameters:
 
 You can gain the inference images at the result folder.
 
-## Some results
+## Our results
 
 ### Virtual staining
 
-|      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |
+|           Input            |           CCGAN            |           GT            |
+| :------------------------: | :------------------------: | :---------------------: |
+| ![bw](images/bw_input.png) | ![bw](images/bw_CCGAN.png) | ![bw](images/bw_GT.png) |
 
-### Isotropic
-
-|                                                   |      |      |
-| ------------------------------------------------- | ---- | ---- |
-| ![liver_whole_slide](images/liver_wholeslide_input.png) |      |      |
-|                                                   |      |      |
-|                                                   |      |      |
+|           Input           |           CCGAN           |           GT           |
+| :-----------------------: | :-----------------------: | :--------------------: |
+| ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
 
 
 
-### De noising
+### Isotropic restoration
 
-|      |      |      |      |      |
-| ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |
+|                            Input                             |                            CCGAN                             |                              GT                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="images/liver_wholeslide_input.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_wholeslide_CCGAN.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_wholeslide_GT.png" alt="liver_whole_slide" style="zoom:67%;" /> |
 
-## Demo
+|                            Input                             |                            CCGAN                             |                              GT                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="images/liver_input.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_CCGAN.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_GT.png" alt="liver_whole_slide" style="zoom:67%;" /> |
+
+
+
+### Denoising
+
+|                            Input                             |                            CCGAN                             |                              GT                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="images/2_input.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_CCGAN.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_GT.png" alt="liver_whole_slide" style="zoom:120%;" /> |
+
+|                            Input                             |                            CCGAN                             |                              GT                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="images/2_input1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_CCGAN1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_GT1.png" alt="liver_whole_slide" style="zoom:120%;" /> |
+
+### Super-resolution
+
+|                  Input                   |                  CCGAN                   |                  GT                   |                  Input                   |                  CCGAN                   |                  GT                   |
+| :--------------------------------------: | :--------------------------------------: | :-----------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
+| ![liver_whole_slide](images/3_input.png) | ![liver_whole_slide](images/3_CCGAN.png) | ![liver_whole_slide](images/3_GT.png) | ![liver_whole_slide](images/4_input.png) | ![liver_whole_slide](images/4_CCGAN.png) | ![liver_whole_slide](images/4_GT.png) |
+
+|                  Input                   |                  CCGAN                   |                           GT                           |                  Input                   |                  CCGAN                   |                  GT                   |
+| :--------------------------------------: | :--------------------------------------: | :----------------------------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
+| ![liver_whole_slide](images/5_input.png) | ![liver_whole_slide](images/5_CCGAN.png) | <img src="images/5_GT.png" alt="liver_whole_slide"  /> | ![liver_whole_slide](images/6_input.png) | ![liver_whole_slide](images/6_CCGAN.png) | ![liver_whole_slide](images/6_GT.png) |
+
+### Google data
+
+|                   Input                   |                   CCGAN                   |                   GT                   |
+| :---------------------------------------: | :---------------------------------------: | :------------------------------------: |
+| ![liver_whole_slide](images/13_input.png) | ![liver_whole_slide](images/13_CCGAN.png) | ![liver_whole_slide](images/13_GT.png) |
+
+|                   Input                   |                   CCGAN                   |                   GT                   |
+| :---------------------------------------: | :---------------------------------------: | :------------------------------------: |
+| ![liver_whole_slide](images/14_input.png) | ![liver_whole_slide](images/14_CCGAN.png) | ![liver_whole_slide](images/14_GT.png) |
+| ![liver_whole_slide](images/16_input.png) | ![liver_whole_slide](images/16_CCGAN.png) | ![liver_whole_slide](images/16_GT.png) |
+| ![liver_whole_slide](images/15_input.png) | ![liver_whole_slide](images/15_CCGAN.png) | ![liver_whole_slide](images/15_GT.png) |
+
+### Segmentation
+
+| Input                                    | CCGAN                                    | GT                                    |
+| ---------------------------------------- | ---------------------------------------- | ------------------------------------- |
+| ![liver_whole_slide](images/7_input.png) | ![liver_whole_slide](images/7_CCGAN.png) | ![liver_whole_slide](images/7_GT.png) |
+| ![liver_whole_slide](images/8_input.png) | ![liver_whole_slide](images/8_CCGAN.png) | ![liver_whole_slide](images/8_GT.png) |
 
 ## Citation and detailed manual
 
-A paper explaining most of the effectuation details can be found here.
+A paper explaining most of the effectuation details can be found here. If you meet any problems, please send an email to lixinyan18@mails.tsinghua.edu.cn.
 

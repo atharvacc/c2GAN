@@ -191,7 +191,7 @@ You can gain the inference images at the result folder.
 
 |                                                   |      |      |
 | ------------------------------------------------- | ---- | ---- |
-| ![liver_whole_slide](images/liver_whole_slide.png) |      |      |
+| ![liver_whole_slide](images/liver_wholeslide_input.png) |      |      |
 |                                                   |      |      |
 |                                                   |      |      |
 

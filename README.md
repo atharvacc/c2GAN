@@ -3,7 +3,12 @@ Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
 
 ![liver_whole_slide](images/logo.png)
 
-CycleGAN, as one of the most enlightening and startling strategy for neural network training, promises to perform a significant function in data-driven computational microscopy, including virtual staining, isotropic restoration, denosing, segmentation etc. We hope that this method will help the utilizer of microscope. For more information please follow [this link][media.au.tsinghua.edu.cn].
+Cycle-consistent generative adversarial networks (**CycleGAN**), as one of the most enlightening and startling strategy for neural network training, promises to provide an unsupervised learning method for deep-learning-based computational microscopy. By imposing addition structural constraint, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining *etc.*. 
+
+CCGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproduced and offer new possibilities for unsupervised image-to-image transformation the field of microscopy. For more information and technical support please follow the update
+
+
+For more information please follow [this link][media.au.tsinghua.edu.cn].
 
 ## CCGAN model
 

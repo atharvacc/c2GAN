@@ -55,23 +55,24 @@ cycleGAN
 
 ## Environment
 
-* ubuntu 16.0 + python 3.6.2 + Tensorflow 1.10.0 
-* numpy 1.16.2 + scipy 0.18.1
-* NVIDIA GPU + cuda
+* ubuntu 16.04 
+* python 3.6.
+- **tensorflow-gpu 1.4.0** 
+* NVIDIA GPU + CUDA 10.0
 
 ## Building environment
-We recommend configuring a new environment on our machine to avoid version conflicts of some packages.
+We recommend configuring a new environment named *ccgan* on our machine to avoid version conflicts of some packages.We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
 * Build anaconda environment
+
 ```
 $ conda create -n ccgan python=3.6
 ```
 
-* Install tensorflow
+* Activate the *ccgan* environment and install tensorflow
 
 ```
-$ source activate tensorflow
-$ cd Download 
-$ pip install --ignore-installed --upgrade tensorflow-1.3.0-py3-none-linux_x86_64.whl
+$ source activate ccgan
+$ conda install tensorflow-gpu=1.10.0
 ```
 
 * Test if the installation is successful

@@ -173,9 +173,9 @@ Interpretation of the above parameters:
 
 You can gain the inference images at the result folder.
 
-## Our results
+## Some of our results
 
-### Virtual staining
+### Unsupervised whole-slide histopathological coloration
 
 |           Input            |           CCGAN            |           GT            |
 | :------------------------: | :------------------------: | :---------------------: |
@@ -185,21 +185,7 @@ You can gain the inference images at the result folder.
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
 
-
-
-### Isotropic restoration
-
-|                            Input                             |                            CCGAN                             |                              GT                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="images/liver_wholeslide_input.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_wholeslide_CCGAN.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_wholeslide_GT.png" alt="liver_whole_slide" style="zoom:67%;" /> |
-
-|                            Input                             |                            CCGAN                             |                              GT                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="images/liver_input.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_CCGAN.png" alt="liver_whole_slide" style="zoom:67%;" /> | <img src="images/liver_GT.png" alt="liver_whole_slide" style="zoom:67%;" /> |
-
-
-
-### Denoising
+### Unsupervised image restoration -- Denoising
 
 |                            Input                             |                            CCGAN                             |                              GT                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -209,7 +195,7 @@ You can gain the inference images at the result folder.
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="images/2_input1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_CCGAN1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_GT1.png" alt="liver_whole_slide" style="zoom:120%;" /> |
 
-### Super-resolution
+### Unsupervised image restoration -- Super-resolution
 
 |                  Input                   |                  CCGAN                   |                  GT                   |                  Input                   |                  CCGAN                   |                  GT                   |
 | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
@@ -219,7 +205,7 @@ You can gain the inference images at the result folder.
 | :--------------------------------------: | :--------------------------------------: | :----------------------------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
 | ![liver_whole_slide](images/5_input.png) | ![liver_whole_slide](images/5_CCGAN.png) | <img src="images/5_GT.png" alt="liver_whole_slide"  /> | ![liver_whole_slide](images/6_input.png) | ![liver_whole_slide](images/6_CCGAN.png) | ![liver_whole_slide](images/6_GT.png) |
 
-### Google data
+### Virtual fluorescent labeling
 
 |                   Input                   |                   CCGAN                   |                   GT                   |
 | :---------------------------------------: | :---------------------------------------: | :------------------------------------: |
@@ -231,7 +217,7 @@ You can gain the inference images at the result folder.
 | ![liver_whole_slide](images/16_input.png) | ![liver_whole_slide](images/16_CCGAN.png) | ![liver_whole_slide](images/16_GT.png) |
 | ![liver_whole_slide](images/15_input.png) | ![liver_whole_slide](images/15_CCGAN.png) | ![liver_whole_slide](images/15_GT.png) |
 
-### Segmentation
+### Pixel-wise classification -- Segmentation
 
 | Input                                    | CCGAN                                    | GT                                    |
 | ---------------------------------------- | ---------------------------------------- | ------------------------------------- |

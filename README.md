@@ -4,9 +4,9 @@
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
-To correct biased mapping in the transformation of micrographs and provide an robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**CCGAN**). By imposing addition **structural constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining *etc.*. 
+To correct biased mapping in the transformation of micrographs and provide an robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**CCGAN**). By imposing addition **structural constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
-Most amazingly, CCGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
+Foremost, CCGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
 More details please refer to the published paper. [[paper]](https://www.osapublishing.org/optica/home.cfm)
 

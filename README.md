@@ -1,5 +1,5 @@
 # CCGAN
-Constrained CycleGAN for nonlinear pixel-wise regression in microscopy
+Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
 ## Position available
 
 ![liver_whole_slide](images/logo.png)
@@ -55,14 +55,6 @@ cycleGAN
 * NVIDIA GPU + cuda
 
 ## Building environment
-
-Open the terminal of ubuntu system.
-
-* Install python 
-
-```
-$ apt-get install python 3.6
-```
 
 * Build anaconda environment
 

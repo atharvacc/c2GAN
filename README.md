@@ -195,9 +195,6 @@ You can gain the inference images at the result folder.
 |                  Input                   |                  CCGAN                   |                  GT                   |                  Input                   |                  CCGAN                   |                  GT                   |
 | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
 | ![liver_whole_slide](images/3_input.png) | ![liver_whole_slide](images/3_CCGAN.png) | ![liver_whole_slide](images/3_GT.png) | ![liver_whole_slide](images/4_input.png) | ![liver_whole_slide](images/4_CCGAN.png) | ![liver_whole_slide](images/4_GT.png) |
-
-|                  Input                   |                  CCGAN                   |                           GT                           |                  Input                   |                  CCGAN                   |                  GT                   |
-| :--------------------------------------: | :--------------------------------------: | :----------------------------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
 | ![liver_whole_slide](images/5_input.png) | ![liver_whole_slide](images/5_CCGAN.png) | <img src="images/5_GT.png" alt="liver_whole_slide"  /> | ![liver_whole_slide](images/6_input.png) | ![liver_whole_slide](images/6_CCGAN.png) | ![liver_whole_slide](images/6_GT.png) |
 
 ### Virtual fluorescent labeling

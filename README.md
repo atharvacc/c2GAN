@@ -177,14 +177,10 @@ You can gain the inference images at the result folder.
 
 ### Unsupervised whole-slide histopathological coloration
 
-|           Input            |           CCGAN            |           GT            |
-| :------------------------: | :------------------------: | :---------------------: |
-| ![bw](images/bw_input.png) | ![bw](images/bw_CCGAN.png) | ![bw](images/bw_GT.png) |
 
 |           Input           |           CCGAN           |           GT           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
-| :------------------------: | :------------------------: | :---------------------: |
 | ![bw](images/bw_input.png) | ![bw](images/bw_CCGAN.png) | ![bw](images/bw_GT.png) |
 
 ### Unsupervised image restoration -- Denoising

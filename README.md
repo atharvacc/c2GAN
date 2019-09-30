@@ -79,7 +79,8 @@ $ conda install tensorflow-gpu=1.10.0
 
 ```
 $ python
->>> import tensorflow as tf    
+>>> import tensorflow as tf
+>>> tf.__version__
 >>> hello = tf.constant("Hello World, TensorFlow!")
 >>> sess = tf.Session()
 >>> print(sess.run(hello))

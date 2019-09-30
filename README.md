@@ -13,9 +13,9 @@ More details please refer to the published paper. [[paper]](https://www.osapubli
 
 ## CCGAN model
 
-A python code for CCGAN aims at addressing problems during the imaging procedure of microscopy.
+A readable python code for CCGAN aims at realizing unsupervised domian mapping in optical microscopy.
 
-You can find the cycleGAN paper [here][https://arxiv.org/abs/1703.10593].  Next we will mentor you step by step how to implement our computational model.
+Next we will mentor you step by step how to implement our computational model.
 
 ## Directory structure
 
@@ -60,11 +60,11 @@ cycleGAN
 * NVIDIA GPU + cuda
 
 ## Building environment
-
+We recommend configuring a new environment on our machine.
 * Build anaconda environment
 
 ```
-$ conda create -n tensorflow python=3.6
+$ conda create -n ccgan python=3.6
 ```
 
 * Install tensorflow

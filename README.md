@@ -1,10 +1,10 @@
 # CCGAN: Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
 
-<img src="https://github.com/Xinyang-Li/CCGAN/blob/master/images/logo.png" width="800" align="middle">
+<img src="images/logo.png" width="700" align="middle">
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
-To correct biased mapping in the transformation of micrographs and provide an robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**CCGAN**). By imposing addition **structural constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
+To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**CCGAN**). By imposing addition **structural constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
 Foremost, CCGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
@@ -239,5 +239,7 @@ You can gain the inference images at the result folder.
 
 ## Citation and detailed manual
 
-A paper explaining most of the effectuation details can be found here. If you meet any problems, please send an email to lixinyan18@mails.tsinghua.edu.cn.
+If you use this code please cite the corresponding paper where original methods appeared: 
+
+"*Learning domain mapping between unaligned micrographs using constrained cycle-consistent generative adversarial networks*". [[paper]](https://www.osapublishing.org/optica/home.cfm)
 

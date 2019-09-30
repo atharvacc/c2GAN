@@ -1,7 +1,6 @@
 # CCGAN: Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
 
-
-![liver_whole_slide](images/logo.png)
+<img src="https://github.com/Xinyang-Li/CCGAN/blob/master/images/logo.png" width="600" align="middle">
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 

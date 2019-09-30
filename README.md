@@ -1,6 +1,5 @@
 # CCGAN
 Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
-## Position available
 
 ![liver_whole_slide](images/logo.png)
 

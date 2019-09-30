@@ -60,9 +60,8 @@ cycleGAN
 * NVIDIA GPU + cuda
 
 ## Building environment
-We recommend configuring a new environment on our machine.
+We recommend configuring a new environment on our machine to avoid version conflicts of some packages.
 * Build anaconda environment
-
 ```
 $ conda create -n ccgan python=3.6
 ```

@@ -181,6 +181,7 @@ You can gain the inference images at the result folder.
 |           Input           |           CCGAN           |           GT           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
+
 | ![bw](images/bw_input.png) | ![bw](images/bw_CCGAN.png) | ![bw](images/bw_GT.png) |
 
 ### Unsupervised image restoration -- Denoising
@@ -189,8 +190,6 @@ You can gain the inference images at the result folder.
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="images/2_input.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_CCGAN.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_GT.png" alt="liver_whole_slide" style="zoom:120%;" /> |
 
-|                            Input                             |                            CCGAN                             |                              GT                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="images/2_input1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_CCGAN1.png" alt="liver_whole_slide" style="zoom:120%;" /> | <img src="images/2_GT1.png" alt="liver_whole_slide" style="zoom:120%;" /> |
 
 ### Unsupervised image restoration -- Super-resolution

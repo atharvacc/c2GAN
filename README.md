@@ -94,8 +94,7 @@ $ python
 * Install necessary packages
 
 ```
-$ pip install scipy=0.18.1
-$ pip install numpy=1.16.2
+$ conda install -c anaconda scipy
 ```
 
 ## Data processing

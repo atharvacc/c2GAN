@@ -62,6 +62,11 @@ cycleGAN
 
 ## Building environment
 We recommend configuring a new environment named *ccgan* on our machine to avoid version conflicts of some packages.We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
+* Check your CUDA version
+```
+$ cat /usr/local/cuda/version.txt
+```
+
 * Build anaconda environment
 
 ```

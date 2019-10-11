@@ -22,35 +22,38 @@ Next we will mentor you step by step how to implement our computational model.
 The file structure is shown below:
 
 ```
-cycleGAN
 |---checkpoints
-|	|---project_name+time  #creat by code#
+|---|---project_name+time  #creat by code#
 |---|---|---meta
 |---|---|---index
 |---|---|---ckpt
 |---data
-|---|---1_Isotropic_Liver  #project_name#
-|---|---|---trainA
-|---|---|---trainB
-|---|---|---testA
-|---|---|---testB
-|---fake
-|---|---project_name+time
-|---|---|---fake_x
-|---|---|---fake_y
-|---result
-|---|---project_name+time
-|---|---|---fake_x
-|---|---|---fake_y
-|---discriminator.py
-|---export_graph.py
-|---generator,py
-|---inference.py
-|---model.py
-|---ops.py
+|---|---training_data
+|---|---|---isotrpic  #project_name#
+|---|---|---|---trainA
+|---|---|---|---trainB
+|---|---|---|---testA
+|---|---|---|---testB
+|---|---fake_image
+|---|---|---|---project_name+time
+|---|---|---|---fake_x
+|---|---|---|---fake_y
+|---|---|---|---inferred_image
+|---|---|---|---project_name+time
+|---|---|---|---inferred_x
+|---|---|---|---inferred_y
+|---utils
+|---|---discriminator.py
+|---|---export_graph.py
+|---|---generator,py
+|---|---inference.py
+|---|---model.py
+|---|---ops.py
+|---|---reader.py
+|---|---utils.py
 |---preprocess.py
-|---reader.py
 |---main.py
+|---README.md
 ```
 
 ## Environment

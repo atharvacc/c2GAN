@@ -1,4 +1,4 @@
-# C^2GAN: Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
+# C<sup>2</sup>GAN: Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
 
 <img src="images/logo.png" width="700" align="middle">
 

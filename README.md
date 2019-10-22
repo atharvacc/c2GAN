@@ -1,4 +1,4 @@
-# c<sup>2</sup>GAN: Constrained CycleGAN for nonlinear pixel-wise regression in optical microscopy
+# c<sup>2</sup>GAN: Unsupervised content-preserving transformation for nonlinear pixel-wise regression in microscopy.
 
 <img src="images/logo.png" width="700" align="middle">
 

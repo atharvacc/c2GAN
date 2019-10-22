@@ -1,6 +1,6 @@
 # c<sup>2</sup>GAN: Unsupervised content-preserving transformation for nonlinear pixel-wise regression in microscopy.
 
-<img src="images/logo.png" width="700" align="middle">
+<img src="images/logo3.jpg" width="700" align="middle">
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 

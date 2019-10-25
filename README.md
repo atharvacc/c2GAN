@@ -4,16 +4,16 @@
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
-To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**CCGAN**). By imposing additional **structural constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
+To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
-Foremost, CCGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
+Foremost, c<sup>2</sup>CGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
 More details please refer to the published paper. [[paper]](https://www.osapublishing.org/optica/home.cfm)
 
 
-## CCGAN model
+## c<sup>2</sup>GAN model
 
-A readable python code for CCGAN aims at realizing unsupervised domian mapping in optical microscopy.
+A readable python code for c<sup>2</sup>CGAN aims at realizing unsupervised domian mapping in optical microscopy.
 
 Next we will mentor you step by step how to implement our computational model.
 
@@ -185,7 +185,7 @@ You can gain the inference images at the result folder.
 ### Unsupervised whole-slide histopathological coloration
 
 
-|           Input           |           CCGAN           |           GT           |
+|           Input           |           c<sup>2</sup>GAN           |           GT           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
 | ![bw](images/bw_input.png) | ![bw](images/bw_CCGAN.png) | ![bw](images/bw_GT.png) |
@@ -199,14 +199,14 @@ You can gain the inference images at the result folder.
 
 ### Unsupervised image restoration -- Super-resolution
 
-|                  Input                   |                  CCGAN                   |                  GT                   |                  Input                   |                  CCGAN                   |                  GT                   |
+|                  Input                   |                  c<sup>2</sup>GAN                   |                  GT                   |                  Input                   |                  c<sup>2</sup>CGAN                   |                  GT                   |
 | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: | :--------------------------------------: | :--------------------------------------: | :-----------------------------------: |
 | ![liver_whole_slide](images/3_input.png) | ![liver_whole_slide](images/3_CCGAN.png) | ![liver_whole_slide](images/3_GT.png) | ![liver_whole_slide](images/4_input.png) | ![liver_whole_slide](images/4_CCGAN.png) | ![liver_whole_slide](images/4_GT.png) |
 | ![liver_whole_slide](images/5_input.png) | ![liver_whole_slide](images/5_CCGAN.png) | <img src="images/5_GT.png" alt="liver_whole_slide"  /> | ![liver_whole_slide](images/6_input.png) | ![liver_whole_slide](images/6_CCGAN.png) | ![liver_whole_slide](images/6_GT.png) |
 
 ### Virtual fluorescent labeling
 
-|                   Input                   |                   CCGAN                   |                   GT                   |
+|                   Input                   |                   c<sup>2</sup>GAN                   |                   GT                   |
 | :---------------------------------------: | :---------------------------------------: | :------------------------------------: |
 | ![liver_whole_slide](images/14_input.png) | ![liver_whole_slide](images/14_CCGAN.png) | ![liver_whole_slide](images/14_GT.png) |
 | ![liver_whole_slide](images/16_input.png) | ![liver_whole_slide](images/16_CCGAN.png) | ![liver_whole_slide](images/16_GT.png) |
@@ -214,7 +214,7 @@ You can gain the inference images at the result folder.
 
 ### Pixel-wise classification -- Segmentation
 
-| Input                                    | CCGAN                                    | GT                                    |
+| Input                                    | c<sup>2</sup>GAN                                    | GT                                    |
 | ---------------------------------------- | ---------------------------------------- | ------------------------------------- |
 | ![liver_whole_slide](images/7_input.png) | ![liver_whole_slide](images/7_CCGAN.png) | ![liver_whole_slide](images/7_GT.png) |
 | ![liver_whole_slide](images/8_input.png) | ![liver_whole_slide](images/8_CCGAN.png) | ![liver_whole_slide](images/8_GT.png) |

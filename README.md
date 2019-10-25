@@ -4,16 +4,16 @@
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
-To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, CCGAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
+To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
-Foremost, c<sup>2</sup>CGAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
+Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
 More details please refer to the published paper. [[paper]](https://www.osapublishing.org/optica/home.cfm)
 
 
 ## c<sup>2</sup>GAN model
 
-A readable python code for c<sup>2</sup>CGAN aims at realizing unsupervised domian mapping in optical microscopy.
+A readable python code for c<sup>2</sup>GAN aims at realizing unsupervised domian mapping in optical microscopy.
 
 Next we will mentor you step by step how to implement our computational model.
 

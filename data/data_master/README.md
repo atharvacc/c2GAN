@@ -4,4 +4,4 @@
 - Whole-slide histological coloration: [The Genomic Data Commons (GDC) portal](https://portal.gdc.cancer.gov/) 
 - Virtual fluorescent labeling. Citation: [Christiansen, E. M., et al. (2018). "In Silico Labeling: Predicting Fluorescent Labels in Unlabeled Images." Cell 173(3): 792-803 e719.](https://www.sciencedirect.com/science/article/pii/S0092867418303647)
 
-## The data 
+## The data presented in this directory are preprocessed and can be directly used for training and test of c<sup>2</sup>GAN.

@@ -64,7 +64,7 @@ The file structure is shown below:
 * NVIDIA GPU + CUDA 10.0
 
 ## Building environment
-We recommend configuring a new environment named *ccgan* on our machine to avoid version conflicts of some packages.We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
+We recommend configuring a new environment named *c2gan* on our machine to avoid version conflicts of some packages.We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
 * Check your CUDA version
 ```
 $ cat /usr/local/cuda/version.txt
@@ -73,13 +73,13 @@ $ cat /usr/local/cuda/version.txt
 * Build anaconda environment
 
 ```
-$ conda create -n ccgan python=3.6
+$ conda create -n c2gan python=3.6
 ```
 
-* Activate the *ccgan* environment and install tensorflow
+* Activate the *c2gan* environment and install tensorflow
 
 ```
-$ source activate ccgan
+$ source activate c2gan
 $ conda install tensorflow-gpu=1.10.0
 ```
 
@@ -102,9 +102,9 @@ $ conda install -c anaconda scipy
 
 ## Data processing
 
-* You can download some data for demo code from [Baidu Cloud][https://pan.baidu.com/s/1zUU5-Ktu4jOJPgrh5JJcyQ]. 
+* You can download some data for demo code from [here][https://github.com/Xinyang-Li/c2GAN/tree/master/data/data_master]. 
 
-* Transform your pictures from '.tif' to '.png' and divide the dataset into training data and test data. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the testing data. The put training A dataset at the 'trainA' folder, training B dataset at the 'trainB' folder, testing A dataset at the 'testA' folder and testing B dataset at the 'testB' folder.
+* Transform your images from '*.tif*' to '*.png*' and divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Then put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for test in the 'testB' folder.
 
 ## For training
 

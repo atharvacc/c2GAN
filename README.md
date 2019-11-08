@@ -60,7 +60,7 @@ The file structure is shown below:
 
 * ubuntu 16.04 
 * python 3.6.
-- **tensorflow-gpu 1.4.0** 
+- **tensorflow-gpu 1.14.0** 
 * NVIDIA GPU + CUDA 10.0
 
 ## Building environment

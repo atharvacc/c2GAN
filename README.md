@@ -1,4 +1,4 @@
-# c<sup>2</sup>GAN: Unsupervised content-preserving transformation for nonlinear pixel-wise regression in microscopy.
+# c<sup>2</sup>GAN: Unsupervised content-preserving transformation for optical microscopy.
 
 <img src="images/logo3.jpg" width="700" align="middle">
 
@@ -223,5 +223,5 @@ You can obtain the inferenced images at the result folder.
 
 If you use this code please cite the corresponding paper where original methods appeared: 
 
-"*Learning domain mapping between unaligned micrographs using constrained cycle-consistent generative adversarial networks*". [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+"*Unsupervised content-preserving transformation for optical microscopy*". [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 

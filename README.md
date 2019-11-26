@@ -223,5 +223,5 @@ You can obtain the inferenced images at the result folder.
 
 If you use this code please cite the corresponding paper where original methods appeared: 
 
-"*Learning domain mapping between unaligned micrographs using constrained cycle-consistent generative adversarial networks*". [[paper]](https://www.osapublishing.org/optica/home.cfm)
+"*Learning domain mapping between unaligned micrographs using constrained cycle-consistent generative adversarial networks*". [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 

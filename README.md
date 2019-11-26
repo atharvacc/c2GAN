@@ -8,7 +8,7 @@ To correct biased mapping in the transformation of micrographs and provide a rob
 
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
-More details please refer to the published paper. [[paper]](https://www.osapublishing.org/optica/home.cfm)
+More details please refer to the published paper. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
 
 ## c<sup>2</sup>GAN model

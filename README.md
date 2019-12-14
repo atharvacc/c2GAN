@@ -4,7 +4,7 @@
 
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
-To correct biased mapping in the transformation of micrographs and provide a robost unsupervised learning method for deep-learning-based computational microscopy. We propose  constrained CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
+To correct mapping bias in the transformation of microscopy images and provide a robost unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
@@ -13,9 +13,9 @@ More details please refer to the published paper. [[paper]](https://www.biorxiv.
 
 ## c<sup>2</sup>GAN model
 
-A readable python code for c<sup>2</sup>GAN aims at realizing unsupervised domian mapping in optical microscopy.
+A readable python code of c<sup>2</sup>GAN aims at realizing unsupervised domian mapping in optical microscopy.
 
-Next we will mentor you step by step how to implement our computational model.
+Next, we will guide you step by step to implement our method.
 
 ## Directory structure
 
@@ -80,7 +80,7 @@ $ conda create -n c2gan python=3.6
 
 ```
 $ source activate c2gan
-$ conda install tensorflow-gpu=1.10.0
+$ conda install tensorflow-gpu=1.14.0
 ```
 
 * Test if the installation is successful
@@ -104,11 +104,11 @@ $ conda install -c anaconda scipy
 
 * You can download some data for demo code from [here](https://github.com/Xinyang-Li/c2GAN/tree/master/data/data_master). 
 
-* Transform your images from '*.tif*' to '*.png*' to use the I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
+* Transform your images from '*.tif*' to '*.png*' to use the universal I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
 
 ## For training
 
-Encode the training data into tfrecords
+Encode the training data into tfrecords for fast data loading.
 
 ```
 $ python preprocess.py --project 1_Isotropic_Liver --type train
@@ -120,19 +120,19 @@ or
 $ python preprocess.py --project 1_Isotropic_Liver
 ```
 
-Starting trainning
+Start trainning.
 
 ```
 $ python main.py
 ```
 
-If you want to modify the default parameters, you can do this by the command line, for example:
+You modify the default arguments through command line, for example:
 
 ```
 $ python main.py  --project 1_Isotropic_Liver  --image_size 128  --channels 1  --GPU 0  --epoch 100000 --type train
 ```
 
-Here is the list of parameters:
+Here is the list of arguments:
 
 ```
 --type: 'train or test, default: train'
@@ -145,7 +145,7 @@ Here is the list of parameters:
 --epoch: 'number of training epoch, default: 5'
 ```
 
-If you interrupted the training process and want to restart training from that point, you can load the former checkpoints like this:
+If you interrupt the training process and want to restart training from that point, you can load the former checkpoints like this:
 
 ```
 $ python main.py  --project 1_Isotropic_Liver  --image_size 128  --channels 1  --GPU 0  --epoch 100000 --type train --load_model 20190922-2222
@@ -159,19 +159,19 @@ $ tensorboard --logdir
 
 ## For testing
 
-Write test data into tfrecords
+Encode test data into tfrecords
 
 ```
 $ python3 build_data.py --project 1_Isotropic_Liver --type test
 ```
 
-We use the same code but different parameters for training and test. You just need to load your checkpoints like this:
+We use the same code but different arguments for training and test. You just need to load pre-trained model or checkpoints.
 
 ```
 $ python main.py --epoch 500 --project 1_Isotropic_Liver --channels 1 --image_size 128 --GPU 0 --type test --load_model 20190926-1619
 ```
 
-Interpretation of the above parameters:
+Interpretation of arguments above:
 
 ```
 --epoch:'the number of images in the testing dataset'

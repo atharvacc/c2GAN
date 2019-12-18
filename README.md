@@ -64,7 +64,7 @@ The file structure is shown below:
 * NVIDIA GPU + CUDA 10.0
 
 ## Building environment
-We recommend configuring a new environment named *c2gan* on your machine to avoid version conflicts of some packages.We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
+We recommend configuring a new environment named *c2gan* on your machine to avoid version conflicts of some packages.The typical install time on a desktop computer with CUDA support is about 10 minutes. We assume that *corresponding NVIDIA GPU support and CUDA 10.0* has been installed on your machine.
 * Check your CUDA version
 ```
 $ cat /usr/local/cuda/version.txt
@@ -179,6 +179,8 @@ Interpretation of arguments above:
 ```
 
 You can obtain the inferenced images at the result folder.
+
+The typical training time on a medium-sized training set is about 10 hours. The performance testing is really fast that it takes less than 50 milliseconds per image.
 
 ## Some of our results
 

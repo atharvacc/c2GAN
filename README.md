@@ -16,11 +16,11 @@
 
 # Overview
 
-Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
+Our work is based on Cycle-consistent generative adversarial networks (**CycleGANs**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
+
+<img src="images/schematic.jpg" width="250" align="right">
 
 To correct mapping bias in the transformation of microscopy images and provide a robost unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
-
-<img src="images/schematic.jpg" width="600" align="right">
 
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
@@ -201,7 +201,6 @@ The typical training time on a medium-sized training set is about 10 hours. The 
 
 ### Unsupervised whole-slide histopathological coloration
 
-
 |           Input           |           c<sup>2</sup>GAN           |           GT           |
 | :-----------------------: | :-----------------------: | :--------------------: |
 | ![bw](images/1_input.png) | ![bw](images/1_CCGAN.png) | ![bw](images/1_GT.png) |
@@ -221,7 +220,7 @@ The typical training time on a medium-sized training set is about 10 hours. The 
 | ![liver_whole_slide](images/3_input.png) | ![liver_whole_slide](images/3_CCGAN.png) | ![liver_whole_slide](images/3_GT.png) | ![liver_whole_slide](images/4_input.png) | ![liver_whole_slide](images/4_CCGAN.png) | ![liver_whole_slide](images/4_GT.png) |
 | ![liver_whole_slide](images/5_input.png) | ![liver_whole_slide](images/5_CCGAN.png) | <img src="images/5_GT.png" alt="liver_whole_slide"  /> | ![liver_whole_slide](images/6_input.png) | ![liver_whole_slide](images/6_CCGAN.png) | ![liver_whole_slide](images/6_GT.png) |
 
-### Virtual fluorescent labeling
+### Virtual fluorescent labeling (Phase contrast --> fluorescent imaging)
 
 |                   Input                   |                   c<sup>2</sup>GAN                   |                   GT                   |
 | :---------------------------------------: | :---------------------------------------: | :------------------------------------: |

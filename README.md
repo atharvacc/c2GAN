@@ -20,6 +20,8 @@ Our work is based on Cycle-consistent generative adversarial networks (**CycleGA
 
 To correct mapping bias in the transformation of microscopy images and provide a robost unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
 
+<img src="images/schematic.jpg" width="600" align="right">
+
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
 More details please refer to the published paper. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
@@ -119,7 +121,7 @@ $ conda install -c anaconda scipy
 
 * Transform your images from '*.tif*' to '*.png*' to use the universal I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
 
-## For training
+## Training
 
 Encode the training data into tfrecords for fast data loading.
 
@@ -133,7 +135,7 @@ or
 $ python preprocess.py --project 1_Isotropic_Liver
 ```
 
-Start trainning.
+Start training.
 
 ```
 $ python main.py
@@ -170,7 +172,7 @@ Tensorboard can be used to monitor the training progress and intermediate result
 $ tensorboard --logdir 
 ```
 
-## For testing
+## Test the model
 
 Encode test data into tfrecords
 

@@ -2,6 +2,20 @@
 
 <img src="images/logo3.jpg" width="700" align="middle">
 
+## Contents
+
+- [Overview](#overview)
+- [Repo Structure](#repo-contents)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Demo](#demo)
+- [Results](#results)
+- [License](./LICENSE)
+- [Issues](https://github.com/ebridge2/lol/issues)
+- [Citation](#citation)
+
+# Overview
+
 Our work is based on Cycle-consistent generative adversarial networks (**CycleGAN**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is very illuminating.
 
 To correct mapping bias in the transformation of microscopy images and provide a robost unsupervised learning method for deep-learning-based computational microscopy, we propose content-preserving CycleGAN (**c<sup>2</sup>GAN**). By imposing additional **saliency constraint**, c<sup>2</sup>GAN can complete pixel-wise regression tasks including image restoration,  whole-slide histopathological coloration, and virtual cell staining, *etc*. 
@@ -17,7 +31,7 @@ A readable python code of c<sup>2</sup>GAN aims at realizing unsupervised domian
 
 Next, we will guide you step by step to implement our method.
 
-## Directory structure
+# Repo Structure
 
 The file structure is shown below:
 

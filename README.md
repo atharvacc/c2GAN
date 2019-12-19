@@ -193,7 +193,7 @@ You can obtain the inferenced images at the result folder.
 The typical training time on a medium-sized training set is about 10 hours. The performance testing is really fast that it takes less than 50 milliseconds per image.
 
 # Results
-Some of our results are exhibited below. For more results and detailed analyses, please refer to the companion paper where this method first occurred.
+Some of our results are exhibited below. For more results and further analyses, please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 ### Unsupervised whole-slide histopathological coloration
 
 |           Input           |           c<sup>2</sup>GAN           |           GT           |

@@ -47,7 +47,18 @@ A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised 
 |---|---|---meta
 |---|---|---index
 |---|---|---ckpt
+|---cycleGAN_utils
+|---|---discriminator.py
+|---|---export_graph.py
+|---|---generator,py
+|---|---inference.py
+|---|---model.py
+|---|---ops.py
+|---|---reader.py
+|---|---utils.py
 |---data
+|---|---data_master
+|---|---|---some_demo_data(*.zip)
 |---|---training_data
 |---|---|---isotrpic  #project_name#
 |---|---|---|---trainA
@@ -58,22 +69,17 @@ A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised 
 |---|---|---|---project_name+time
 |---|---|---|---fake_x
 |---|---|---|---fake_y
-|---|---|---|---inferred_image
+|---|---inferred_image
 |---|---|---|---project_name+time
 |---|---|---|---inferred_x
 |---|---|---|---inferred_y
-|---utils
-|---|---discriminator.py
-|---|---export_graph.py
-|---|---generator,py
-|---|---inference.py
-|---|---model.py
-|---|---ops.py
-|---|---reader.py
-|---|---utils.py
-|---preprocess.py
-|---main.py
+|---images
+|---|---some_images_for_README
+|---pro-processing
+|---|---some_matlab_code(*.m)
+|---LICENSE
 |---README.md
+|---main.py
 ```
 
 # System Environment

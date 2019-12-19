@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-v3.6-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Tensorflow%201.14.0-orange)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
-[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li?tab=overview&from=2019-11-01&to=2019-11-30)
+[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/c2GAN/graphs/contributors)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-blue)](https://www.biorxiv.org/content/10.1101/848077v2)
 [![Commit](https://img.shields.io/github/commit-activity/m/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
 

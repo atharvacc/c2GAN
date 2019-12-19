@@ -60,7 +60,7 @@ A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised 
 |---|---data_master
 |---|---|---some_demo_data(*.zip)
 |---|---training_data
-|---|---|---isotrpic  #project_name#
+|---|---|---isotropic  #project_name#
 |---|---|---|---trainA
 |---|---|---|---trainB
 |---|---|---|---testA

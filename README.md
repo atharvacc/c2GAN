@@ -5,8 +5,8 @@
 ## Contents
 
 - [Overview](#overview)
-- [Repo Structure](#repo-contents)
-- [System Requirements](#system-requirements)
+- [Repo Structure](#repo-structure)
+- [System Environment](#system-environment)
 - [Installation Guide](#installation-guide)
 - [Demo](#demo)
 - [Results](#results)
@@ -70,7 +70,7 @@ The file structure is shown below:
 |---README.md
 ```
 
-## Environment
+# System Environment
 
 * ubuntu 16.04 
 * python 3.6.
@@ -113,6 +113,7 @@ $ python
 ```
 $ conda install -c anaconda scipy
 ```
+# Demo
 
 ## Data processing
 
@@ -196,7 +197,7 @@ You can obtain the inferenced images at the result folder.
 
 The typical training time on a medium-sized training set is about 10 hours. The performance testing is really fast that it takes less than 50 milliseconds per image.
 
-## Some of our results
+# Results
 
 ### Unsupervised whole-slide histopathological coloration
 
@@ -235,7 +236,7 @@ The typical training time on a medium-sized training set is about 10 hours. The 
 | ![liver_whole_slide](images/7_input.png) | ![liver_whole_slide](images/7_CCGAN.png) | ![liver_whole_slide](images/7_GT.png) |
 | ![liver_whole_slide](images/8_input.png) | ![liver_whole_slide](images/8_CCGAN.png) | ![liver_whole_slide](images/8_GT.png) |
 
-## Citation and detailed manual
+# Citation
 
 If you use this code please cite the corresponding paper where original methods appeared: 
 

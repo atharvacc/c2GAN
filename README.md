@@ -33,8 +33,6 @@ Next, we will guide you step by step to implement our method.
 
 # Repo Structure
 
-The file structure is shown below:
-
 ```
 |---checkpoints
 |---|---project_name+time  #creat by code#

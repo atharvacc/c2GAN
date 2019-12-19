@@ -11,7 +11,7 @@
 - [Demo](#demo)
 - [Results](#results)
 - [License](./LICENSE)
-- [Issues](https://github.com/ebridge2/lol/issues)
+- [Issues](https://github.com/Xinyang-Li/c2GAN/issues)
 - [Citation](#citation)
 
 # Overview

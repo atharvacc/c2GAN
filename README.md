@@ -129,7 +129,7 @@ $ conda install -c anaconda scipy
 
 ## Data processing
 
-* You can download some data or checkpoints for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
+* You can download some **data** or **checkpoints** for demo code from [here](https://drive.google.com/open?id=1QPlLcTHlU58xo116KB1bd680EoMof_Wn). 
 
 * Transform your images from '*.tif*' to '*.png*' to use the universal I/O APIs in tensorflow, and then divide the dataset into training set and test set. Usually we use 65%~80% of the dataset as the training data and 20%~35% of the dataset as the test data. Just put images of domain A in the 'trainA' folder, images of domain B in the 'trainB' folder, images of domain A for test in the 'testA' folder,  and images of domain B for results evaluation in the 'testB' folder.
 

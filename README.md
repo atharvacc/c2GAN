@@ -26,12 +26,7 @@ Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious wo
 
 More details please refer to the published paper. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
-
-## c<sup>2</sup>GAN model
-
-A readable python code of c<sup>2</sup>GAN aims at realizing unsupervised domian mapping in optical microscopy.
-
-Next, we will guide you step by step to implement our method.
+A readable python code of c<sup>2</sup>GAN aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
 
 # Repo Structure
 

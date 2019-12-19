@@ -1,4 +1,4 @@
-# c<sup>2</sup>GAN: Unsupervised content-preserving transformation for optical microscopy.
+# **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
 
 
 ## Contents

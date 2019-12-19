@@ -1,6 +1,10 @@
 # **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
 
 
+[![DOI](https://zenodo.org/badge/147731955.svg)](https://zenodo.org/badge/latestdoi/147731955)
+[![Documentation Status](https://readthedocs.org/projects/mgcpy/badge/?version=latest)](https://mgcpy.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/github/license/Xinyang-Li/c2GAN)](https://opensource.org/licenses/GPL-3.0)
+
 ## Contents
 
 <img src="images/logo3.jpg" width="600" align="right">

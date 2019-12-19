@@ -24,9 +24,9 @@ To correct mapping biases in scenario of microscopy and provide a robost unsuper
 
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
-More details please refer to the published paper. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+More details please refer to the companion paper where this method first occurred.. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
-A readable python code of c<sup>2</sup>GAN aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
+A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
 
 # Repo Structure
 

@@ -7,7 +7,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li/c2GAN/graphs/contributors)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-green)](https://www.biorxiv.org/content/10.1101/848077v2)
 [![Commit](https://img.shields.io/github/commit-activity/m/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
-[![Commit](https://img.shields.io/github/issues/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
+[![Issue](https://img.shields.io/github/issues/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/issues)
 [![Stars](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
 
 

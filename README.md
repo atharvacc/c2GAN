@@ -237,5 +237,5 @@ You can submit your questions or create an issue for any bugs you might encounte
 
 If you use this code please cite the corresponding paper where original methods appeared: 
 
-"*Unsupervised content-preserving transformation for optical microscopy*". [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 

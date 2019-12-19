@@ -1,7 +1,7 @@
 # **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
 
 [![Platform](https://img.shields.io/badge/Platform%20-Ubuntu%2016.04-FF6347)](https://ubuntu.com/)
-[![Python](https://img.shields.io/badge/Python%20-3.6-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-v3.6-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Tensorflow%201.14.0-orange)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-GPL--3.0-00CD66)](https://opensource.org/licenses/GPL-3.0)
 [![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li?tab=overview&from=2019-11-01&to=2019-11-30)

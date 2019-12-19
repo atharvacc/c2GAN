@@ -3,7 +3,7 @@
 
 ## Contents
 
-<img src="images/logo3.jpg" width="700" align="right">
+<img src="images/logo3.jpg" width="600" align="right">
 
 - [Overview](#overview)
 - [Repo Structure](#repo-structure)

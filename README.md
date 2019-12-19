@@ -1,8 +1,8 @@
 # **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
 
 [![Platform](https://img.shields.io/badge/Platform%20-Tensorflow%201.14.0-orange)](https://www.tensorflow.org/)
-[![Files](https://img.shields.io/badge/Platform%20-Tensorflow%201.14.0-orange)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-GPL--3.0-green)](https://opensource.org/licenses/GPL-3.0)
+[![Maintenance](https://img.shields.io/badge/Maintenance-On-blueviolet)](https://github.com/Xinyang-Li?tab=overview&from=2019-11-01&to=2019-11-30)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-blue)](https://www.biorxiv.org/content/10.1101/848077v2)
 
 ## Contents
@@ -28,7 +28,7 @@ To correct mapping biases in scenario of microscopy and provide a robust unsuper
 
 Foremost, c<sup>2</sup>GAN needs no pre-aligned training pairs. The laborious work of image acquisition, labeling, and registration can be spared. We release our source code here and hope that our work can be reproducible and offer new possibilities for unsupervised image-to-image transformation in the field of microscopy. For more information and technical support please follow our update.
 
-More details please refer to the companion paper where this method first occurred.. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+More details please refer to the companion paper where this method first occurred. [[paper]](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
 A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised domain mapping in optical microscopy is provided in this repository. Next, we will guide you step by step to implement our method.
 

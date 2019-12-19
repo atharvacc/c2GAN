@@ -1,7 +1,7 @@
 # **c<sup>2</sup>GAN**: Unsupervised content-preserving transformation for optical microscopy.
 
 [![Platform](https://img.shields.io/badge/Platform%20-Tensorflow%201.14.0-orange)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/github/license/Xinyang-Li/c2GAN)](https://opensource.org/licenses/GPL-3.0)
+[![License](https://img.shields.io/badge/License-GPL--3.0-green)](https://opensource.org/licenses/GPL-3.0)
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F848077-blue)](https://www.biorxiv.org/content/10.1101/848077v2)
 
 ## Contents

@@ -230,6 +230,9 @@ Some of our results are exhibited below. For more results and detailed analyses,
 | ![liver_whole_slide](images/7_input.png) | ![liver_whole_slide](images/7_CCGAN.png) | ![liver_whole_slide](images/7_GT.png) |
 | ![liver_whole_slide](images/8_input.png) | ![liver_whole_slide](images/8_CCGAN.png) | ![liver_whole_slide](images/8_GT.png) |
 
+# Problems, issues
+You can submit your questions or create an issue for any bugs you might encounter. We would make response and inspect the code as soon as possible.
+
 # Citation
 
 If you use this code please cite the corresponding paper where original methods appeared: 

@@ -243,7 +243,7 @@ Some of our results are exhibited below. For more results and further analyses, 
 
 
 # Problems, issues
-You can submit your questions or create an **issue** for any bugs you might encounter [link](https://github.com/Xinyang-Li/c2GAN/issues). We would make response and inspect the code as soon as possible.
+You can submit your questions or create an **issue** for any bugs you might encounter [[link]](https://github.com/Xinyang-Li/c2GAN/issues). We would make response and inspect the code as soon as possible.
 
 
 # Citation

@@ -231,7 +231,7 @@ Some of our results are exhibited below. For more results and further analyses, 
 | ![liver_whole_slide](images/8_input.png) | ![liver_whole_slide](images/8_CCGAN.png) | ![liver_whole_slide](images/8_GT.png) |
 
 # Problems, issues
-You can submit your questions or create an issue for any bugs you might encounter. We would make response and inspect the code as soon as possible.
+You can submit your questions or create an issue for any bugs you might encounter [here](https://github.com/Xinyang-Li/c2GAN/issues). We would make response and inspect the code as soon as possible.
 
 # Citation
 

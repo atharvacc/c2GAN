@@ -1,13 +1,13 @@
 # c<sup>2</sup>GAN: Unsupervised content-preserving transformation for optical microscopy.
 
-<img src="images/logo3.jpg" width="700" align="middle">
 
 ## Contents
+
+<img src="images/logo3.jpg" width="700" align="right">
 
 - [Overview](#overview)
 - [Repo Structure](#repo-structure)
 - [System Environment](#system-environment)
-- [Installation Guide](#installation-guide)
 - [Demo](#demo)
 - [Results](#results)
 - [License](./LICENSE)

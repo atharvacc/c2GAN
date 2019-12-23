@@ -57,8 +57,7 @@ A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised 
 |---|---reader.py
 |---|---utils.py
 |---data
-|---|---data_master
-|---|---|---some_demo_data(*.zip)
+|---|---README.md
 |---|---training_data
 |---|---|---isotropic  #project_name#
 |---|---|---|---trainA

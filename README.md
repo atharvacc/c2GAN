@@ -9,7 +9,7 @@
 [![Commits](https://img.shields.io/github/commit-activity/m/Xinyang-Li/c2GAN?color=informational)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
 ![Size](https://img.shields.io/github/repo-size/Xinyang-Li/c2GAN?color=red)
 [![Issue](https://img.shields.io/github/issues/Xinyang-Li/c2GAN)](https://github.com/Xinyang-Li/c2GAN/issues)
-[![Stars](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)](https://github.com/Xinyang-Li/c2GAN/graphs/commit-activity)
+[![Stars](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)](https://img.shields.io/github/stars/Xinyang-Li/c2GAN?style=social)
 
 
 ## Contents

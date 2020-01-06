@@ -85,7 +85,7 @@ A readable **python code** of c<sup>2</sup>GAN aiming at realizing unsupervised 
 
 * ubuntu 16.04 
 * python 3.6.
-- **tensorflow-gpu 1.14.0** 
+* **tensorflow-gpu 1.14.0** 
 * NVIDIA GPU + CUDA 10.0
 
 ## Building environment

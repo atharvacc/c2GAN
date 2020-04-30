@@ -33,7 +33,6 @@ def batch_convert2float(images):
 
 class ImagePool:
   """ History of generated images
-      Same logic as https://github.com/junyanz/CycleGAN/blob/master/util/image_pool.lua
   """
   def __init__(self, pool_size):
     self.pool_size = pool_size

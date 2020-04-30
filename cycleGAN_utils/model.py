@@ -205,8 +205,7 @@ class CycleGAN:
     y_sub=y-mark2
     drawn_y_sub=drawn_y-mark1
     
-    # The effective value range for the sigmoid function is minus 10 to 10.
-    # Gradient transfer is efficient in this interval.
+    # sigmoid(10*x) is similar to the step function but differentiable
     x_sigmoid=tf.nn.sigmoid(x_sub*10)
     drawn_x_sigmoid=tf.nn.sigmoid(drawn_x_sub*10)
     y_sigmoid=tf.nn.sigmoid(y_sub*10)
